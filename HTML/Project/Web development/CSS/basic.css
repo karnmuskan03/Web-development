@@ -1,0 +1,41 @@
+/* Class Selector  */
+.class{
+    background-color: bisque;
+}
+
+/* Id Selector */
+#id{
+    background-color: blueviolet;
+}
+
+/* Descendant Selector */
+div p{
+    color:aquamarine;
+}
+
+/* Universal Selector */
+*{
+    margin:0;
+    padding: 0;
+}
+
+/* Pseudo Selector */
+a:visited{
+    color:yellowgreen
+}
+
+a:link{
+    color:blue
+}
+
+a:active{
+    background-color: blueviolet;
+}
+
+a:hover{
+    background-color: brown;
+}
+
+p:first-child{
+    background-color: aquamarine;
+}
